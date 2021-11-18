@@ -35,11 +35,6 @@ for (let i = 0; i < descriptionBlocks.length; i++) {
     currentBlock.classList.add('present');
 
   }
-  
-
-
-  // let startHour = 
-  // let endHour = 
     
     // create time bounds / parameters for currentBlock
 
@@ -54,4 +49,32 @@ for (let i = 0; i < descriptionBlocks.length; i++) {
 }
 
 
-// loclStorage
+let saveBtn = document.querySelectorAll('button');
+
+for (let i = 0; i < saveBtn.length; i++) {
+  const currentBtn = saveBtn[i];
+
+  currentBtn.addEventListener('click', function(event){
+    console.log(event.target.id);
+
+  let timeBlockSaveBtn = event.target.id;
+  let task = $(this).siblings('textarea').val()
+    console.log(task)
+  
+    localStorage.setItem(timeBlockSaveBtn, task);
+    getTask()
+  })
+
+}
+
+function getTask(){
+
+  for (let i = 9; i < 18; i++) {
+    var getTask = localStorage.getItem(i)
+    console.log(task)
+  }
+}
+
+//set task within for loop - set textContrntn of thing with id of i = getTask
+
+// localStorage
