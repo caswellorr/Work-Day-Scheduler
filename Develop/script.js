@@ -1,8 +1,13 @@
 
+// ======== CURRENT DAY DISPLAY ========
+
+let currentDay = document.querySelector('#currentDay');
+currentDay.textContent = moment().format('MMMM Do YYYY, h:mm a');
 
 // ========== PROJECT DESCRIPTION TIMEBLOCKS ==================
 
 let descriptionBlocks = document.querySelectorAll('.description');
+
 
 for (let i = 0; i < descriptionBlocks.length; i++) {
   const currentBlock = descriptionBlocks[i];
