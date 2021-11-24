@@ -26,6 +26,11 @@ for (let i = 0; i < descriptionBlocks.length; i++) {
     currentBlock.classList.add('present');
 
   }
+    // getting textarea content
+  let getTask = localStorage.getItem(hour);
+   console.log(getTask);
+
+   currentBlock.textContent = getTask;
     
 }
 
@@ -39,25 +44,16 @@ for (let i = 0; i < saveBtn.length; i++) {
   currentBtn.addEventListener('click', function(event){
     console.log(event.target.id);
 
-  let timeBlockSaveId = event.target.id;
+    let timeBlockSaveId = event.target.id;
     
-  let task = $(this).siblings('textarea').val()
+    let task = $(this).siblings('textarea').val()
     console.log(task);
   
-  localStorage.setItem(timeBlockSaveId, task);
+    localStorage.setItem(timeBlockSaveId, task);
 
-  getTask();
-    
-  })
+  
+})
 
 };
 
-function getTask(){
 
-  for (let i = 9; i < 18; i++) {
-    let getTask = localStorage.getItem(i);
-    console.log(getTask);
-
-
-  }
-}
