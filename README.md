@@ -20,11 +20,11 @@ The user can input text into the timeblocks and save them with the save (💾) b
 
 ## Screenshots 📷 :
 
-* User is promted to choose the number of characters they want in their password:
+* User is presented with a work day scheduler:
 
   ![alt text](./assets/screenshot1.png)
   
-* User decides what type of characters they want in their password:
+* User can see what time of day it is based on the red line:
 
   ![alt text](./assets/screenshot2.png)
 
