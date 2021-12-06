@@ -16,6 +16,17 @@ The timeblocks are color coded to indicate the past (grey), present (red), and f
 
 The user can input text into the timeblocks and save them with the save (💾) button to the right. The content saves to local storage so they can leave the page and return to their planner with their tasks still there.
 
+## Screenshots 📷 :
+
+* User is promted to choose the number of characters they want in their password:
+
+  ![alt text](./assets/screenshot1.png)
+  
+* User decides what type of characters they want in their password:
+
+  ![alt text](./assets/screenshot2.png)
+
+
 ## Takeaways 💡
 
 I learned how to utilize the moment API to keep track of and display time. I also learned how to use moment to define a specific block of time. Moment helped provid a live display of time as it moved through the day. 
