@@ -1,6 +1,6 @@
 # Work Day Scheduler 🏆
 
-## What is it? 📖
+## Description 📖
 
 This application is a simple daily planner. A user can input tasks and save them ton manage their time effectively.
 
@@ -16,7 +16,7 @@ The timeblocks are color coded to indicate the past (grey), present (red), and f
 
 The user can input text into the timeblocks and save them with the save (💾) button to the right. The content saves to local storage so they can leave the page and return to their planner with their tasks still there.
 
-## What did I learn? 💡
+## Takeaways 💡
 
 I learned how to utilize the moment API to keep track of and display time. I also learned how to use moment to define a specific block of time. Moment helped provid a live display of time as it moved through the day. 
 
